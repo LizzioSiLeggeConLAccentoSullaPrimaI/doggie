@@ -1,0 +1,86 @@
+#divTipologie{
+    max-width: 1200px;
+    min-width: 200px;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 300px;
+    margin: auto;
+}
+
+select{
+    width: 185px;
+    text-align: center;
+}
+
+input{
+    width: 180px;
+    margin: none;
+}
+
+#input{
+    position: relative;
+}
+
+#wrapper{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#button{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70%; 
+    /* cambia il valore in top se si sminchia */
+}
+
+#submitbutton{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    position: relative;   
+}
+
+#bottoneCambio{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    margin: auto;
+    padding: none;
+    transition: all 200ms ease-in-out;
+    background-color: green;
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+}
+
+#bottoneInvio{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    margin: auto;
+    padding: none;
+    transition: all 200ms ease-in-out;
+    background-color: green;
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+}
+
+#bottoneInvio:hover{
+    background-color: white;
+    color: green;
+}
+
+#bottoneCambio:hover{
+    background-color: white;
+    color: green;
+}
