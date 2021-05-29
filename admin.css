@@ -1,86 +1,100 @@
-#divTipologie{
-    max-width: 1200px;
-    min-width: 200px;
-    justify-content: center;
-    background-color: whitesmoke;
-    height: 300px;
-    margin: auto;
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20vh;
 }
 
-select{
-    width: 185px;
-    text-align: center;
+#divTipologie {
+  max-width: 1200px;
+  min-width: 200px;
+  display: flow-root;
+  justify-content: center;
+  height: 300px;
+  margin: auto;
 }
 
-input{
-    width: 180px;
-    margin: none;
+select {
+  width: 185px;
+  text-align: center;
 }
 
-#input{
-    position: relative;
+input {
+  width: 180px;
+  margin: none;
 }
 
-#wrapper{
-    width: 100%;
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+#input {
+  position: relative;
 }
 
-#button{
-    width: 100%;
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 70%; 
-    /* cambia il valore in top se si sminchia */
+#wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
-#submitbutton{
-    width: 100%;
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    position: relative;   
+#button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 70%;
+  /* cambia il valore in top se si sminchia */
 }
 
-#bottoneCambio{
-    width: 120px;
-    height: 40px;
-    text-align: center;
-    outline: none;
-    margin: auto;
-    padding: none;
-    transition: all 200ms ease-in-out;
-    background-color: green;
-    color: white;
-    border: 0px;
-    border-radius: 20px;
+#submitbutton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
-#bottoneInvio{
-    width: 120px;
-    height: 40px;
-    text-align: center;
-    outline: none;
-    margin: auto;
-    padding: none;
-    transition: all 200ms ease-in-out;
-    background-color: green;
-    color: white;
-    border: 0px;
-    border-radius: 20px;
+#bottoneCambio {
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  outline: none;
+  margin: auto;
+  padding: none;
+  transition: all 200ms ease-in-out;
+  background-color: green;
+  color: white;
+  border: 0px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
-#bottoneInvio:hover{
-    background-color: white;
-    color: green;
+#bottoneInvio {
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  outline: none;
+  margin: auto;
+  padding: none;
+  transition: all 200ms ease-in-out;
+  background-color: green;
+  color: white;
+  border: 0px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
-#bottoneCambio:hover{
-    background-color: white;
-    color: green;
+#bottoneInvio:hover {
+  background-color: white;
+  color: green;
+}
+
+#bottoneCambio:hover {
+  background-color: white;
+  color: green;
+}
+
+.inputText {
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-bottom: 2px solid lightgray;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
